@@ -1,7 +1,9 @@
  body{
-    /* background-color:black; */
+    background-image: url(images/stripes-light.png);
+    font-size:18px;
+    line-height:34px;
 }
-.container-fluid{
+.container{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -17,19 +19,18 @@ padding:0px;
 }
 
  #top-bar{
-    padding:0px;
+    margin-bottom: 100px;
 }
 
 .myindex{
     padding:0px;
-    max-width: 960;
+    
 }
 .piccol{
     text-align: center;
 }
-.selfport{
-    float: left;
-}
+.selfport{}
+
 /* #myname{
     padding:20px;
     margin:0px;
@@ -38,21 +39,31 @@ padding:0px;
 
 
  #myfooter{
-    background-color:#4eeee5;
-    padding:30px;
+    background-color:#777777;
+    padding:20px;
+    margin-top: 100px;
 } 
 
-@media only screen and (min-width:640){
+@media screen and (max-width:740px){
+   body{ background-color: aquamarine;}
+   #vanessaherna{
+       width:100%;
+   }
+   .top-bar{
+       width:100%;
+       padding:0px;
+   }
  
 
 }
 
 
-@media only screen and (min-width:768){
+@media screen and (min-width:768){
 
 }
 
-@media only screen and (min-width:980){
+@media screen and (min-width:980){
+
     
 
 }
