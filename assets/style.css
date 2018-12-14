@@ -1,0 +1,59 @@
+ body{
+    /* background-color:black; */
+}
+.container-fluid{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+#vanessaherna{
+max-width:960px;
+width: 100%;
+margin:0 auto;
+background-color:#ffffff;
+padding:0px;
+
+}
+
+ #top-bar{
+    padding:0px;
+}
+
+.myindex{
+    padding:0px;
+    max-width: 960;
+}
+.piccol{
+    text-align: center;
+}
+.selfport{
+    float: left;
+}
+/* #myname{
+    padding:20px;
+    margin:0px;
+    background-color:#4eeee5;
+} */
+
+
+ #myfooter{
+    background-color:#4eeee5;
+    padding:30px;
+} 
+
+@media only screen and (min-width:640){
+.myindex{width:100%}
+.piccol{width:100%} 
+
+}
+
+
+@media only screen and (min-width:768){
+
+}
+
+@media only screen and (min-width:640){
+
+}
+
