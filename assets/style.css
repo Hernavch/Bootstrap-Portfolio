@@ -29,6 +29,7 @@ margin:0 auto;
 background-color:#ffffff;
 padding:0px;
 font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 #myname{
@@ -60,7 +61,16 @@ li{
     float:left;
 
 }
-.selfport{}
+.label{
+    padding:20px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    position: absolute;
+    bottom:10px;
+    text-align: center;
+    max-width:200px;
+    
+}
 
 /* #myname{
     padding:20px;
@@ -96,6 +106,13 @@ li{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+.nav{
+    max-width: 100%;
+    margin-left:20px;
+}
+ul{
+    text-align: center;
+}
 .container{
     min-width:100%;
     margin:0px;
@@ -108,9 +125,14 @@ li{
     max-height: 80%;
    
 }
+
 .nav{
     min-width: 100px;
     text-align: center
+}
+
+.label{
+    /* width:100%; */
 }
 
 
